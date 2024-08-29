@@ -10,17 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
     "axios": "^1.7.5",
     "nuxt": "^3.13.0",
-    "vue": "latest"
+    "pinia": "^2.2.2",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
+    "@nuxt/icon": "^1.5.0",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "nuxt-icon": "^1.0.0-beta.7",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6"
   }
